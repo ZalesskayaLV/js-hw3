@@ -1,6 +1,6 @@
 function welcome(name) {
-    alert(`Hi, ${name}`);
+    console.log(`Hi, ${name}`);
 }
 
 const yourName = prompt('Как Вас зовут?');
-console.log(welcome(yourName));
+(welcome(yourName));
